@@ -1,0 +1,1 @@
+# CodeQL Cheat Sheet
