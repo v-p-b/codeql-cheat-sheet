@@ -36,10 +36,25 @@ void simple_nested(){
     printf("return\n");
 }
 
+void simple_block_goto(){
+    if (my_rand()) {
+      printf("simple_block 1\n");
+      printf("simple_block 2\n");
+    } else {
+      printf("simple_block else 1\n");
+      printf("simple_block else 2\n");
+      goto label;
+    }
+    printf("unconditional\n");
+    label: 
+      printf("return\n");
+}
+
 int main(){
     simple_no_block();
     simple_block();
     simple_nested();
+    simple_block_goto();
     
     return 0;
 }
