@@ -60,7 +60,7 @@ if (my_rand())
 }
 ```
 
-### False Successors are not Necesserily Part of `if`
+### False Successors are not Necessarily Part of `if`
 
 This query:
 
