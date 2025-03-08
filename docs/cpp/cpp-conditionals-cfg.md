@@ -1,4 +1,4 @@
-# C++ - Control-Flow of Conditionals
+# Control-Flow of Conditionals
 
 ## IfStmt - `if` Statements  
 
