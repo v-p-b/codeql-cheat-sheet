@@ -100,3 +100,36 @@ void simple_no_block(){
 }
 ```
 
+## GotoStmt - `goto` Statements  
+
+This query will return:
+
+```ql
+import cpp
+
+from GotoStmt gs
+select gs.getASuccessor+()
+```
+
+... all of the following:
+
+```c hl_lines="2 13 14 15"
+void 
+simple_block_goto() // The function itself!
+{
+    if (my_rand()) {
+      printf("simple_block 1\n");
+      printf("simple_block 2\n");
+    } else {
+      printf("simple_block else 1\n");
+      printf("simple_block else 2\n");
+      goto label;
+    }
+    printf("unconditional\n");
+    label: //The label
+      printf("return\n"); // The statements after the label
+    // The invisible return
+}
+
+
+```
