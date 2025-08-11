@@ -1,4 +1,6 @@
 site_name: CodeQL Cheat Sheet
+site_author: buherator
+copyright: Published under GPL-3.0 terms
 theme:
   name: material
   palette:
