@@ -21,11 +21,17 @@ Add `qlpack.yml` next to your .ql files:
 ```yml
 name: codeql-cheat-sheet-cpp
 version: 0.0.1
-libraryPathDependencies: codeql-cpp
+dependencies: 
+  codeql/cpp-all: "^1.0.0" 
 ```
+
+Note: the legacy `libraryPathDependencies` syntax won't work! The official way to do things is using the `codeql pack` CLI commands. 
+
 
 Add `queries.xml` next to yout .ql files:
 
 ```xml
 <queries language="cpp"/>
 ```
+
+Use `codeql pack install` to install dependencies of your queries.
