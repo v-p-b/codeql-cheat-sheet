@@ -8,6 +8,8 @@ PR's welcome!
 
 ## Project Layout
 
+CodeQL CLI Binary downloads: https://github.com/github/codeql-cli-binaries/releases
+
 ### Without the VSCode Starter Project
 
 Initialize the official CodeQL repository as a submodule in your project directory:
