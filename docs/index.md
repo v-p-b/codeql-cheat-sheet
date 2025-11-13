@@ -2,13 +2,13 @@
 
 ## Repository
 
-Source and sample code is available here: https://github.com/v-p-b/codeql-cheat-sheet 
+Source and sample code is available [here](https://github.com/v-p-b/codeql-cheat-sheet)
 
 PR's welcome!
 
 ## Project Layout
 
-CodeQL CLI Binary downloads: https://github.com/github/codeql-cli-binaries/releases
+[CodeQL CLI Binary downloads](https://github.com/github/codeql-cli-binaries/releases)
 
 ### Without the VSCode Starter Project
 
