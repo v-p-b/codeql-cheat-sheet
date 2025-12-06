@@ -7,7 +7,7 @@ First we can rewrite the predicate (in a new test query) to return a string. Whe
 Here is an example recursive predicate:
 
 ```codeql
-predicate recursive(Element e, int depth){
+predicate recursive(SomeClass e, int depth){
   (depth=0 and e.isWeThereYet()) or
   (depth > 0 and recursive(e.getARecursionTarget(), depth-1))
 }
