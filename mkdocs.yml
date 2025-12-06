@@ -1,6 +1,9 @@
 site_name: CodeQL Cheat Sheet
 site_author: buherator
 copyright: Published under GPL-3.0 terms
+repo_url: "https://github.com/v-p-b/codeql-cheat-sheet"
+repo_name: GitHub
+site_url: "https://scrapco.de/codeql-cheat-sheet/"
 theme:
   name: material
   palette:
